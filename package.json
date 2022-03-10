@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "dynamically created restaurant page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjlagoutaris/Restaurant-Page.git"
+  },
+  "author": "John Lagoutaris jjlagoutaris@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjlagoutaris/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/jjlagoutaris/Restaurant-Page#readme",
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
