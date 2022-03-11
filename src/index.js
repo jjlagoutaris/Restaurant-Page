@@ -1,2 +1,4 @@
 import './style.scss';
-import './page-load.js';
+import './home-load.js';
+import './menu-load.js';
+import './contact-load.js';

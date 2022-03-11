@@ -1,4 +1,28 @@
-#content{
+body{
     color: white;
     background-color: black;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .imageSpecs{
+        max-height: 600px;
+    }
+}
+.tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .tab{
+        background-color: white;
+        padding: 10px;
+        cursor: pointer;
+        &:focus{
+            background-color: gray;
+            border: 2px solid red;
+            cursor: default;
+        }
+    }
 }
